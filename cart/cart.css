@@ -41,3 +41,10 @@ body {
     background-color: #45a049;
   }
   
+  .checkout-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+  }

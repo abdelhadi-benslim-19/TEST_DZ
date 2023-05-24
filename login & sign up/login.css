@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20;
+}
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+form {
+    display: none;
+}
+form.active {
+    display: block;
+}
+label {
+    display: block;
+    margin-bottom: px;
+}
+input[type="email"],
+input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+button[type="submit"] a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.toggle button {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+form.active {
+    display: block;
+  }
+  
+  .toggle button.active {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+
+@media screen and (max-width: 600px) {
+    input[type="email"],
+    input[type="password"],
+    button[type="submit"] {
+        font-size: 16px;
+    }
+}
